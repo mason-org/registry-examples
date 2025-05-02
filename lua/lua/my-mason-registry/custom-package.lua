@@ -1,7 +1,4 @@
-local Pkg = require("mason-core.package")
-
-return Pkg:new({
-    schema = "registry+v1",
+return {
     name = "custom-package",
     description = "custom-package is a tool that does something great.",
     categories = { "LSP", "Linter" },
@@ -72,4 +69,4 @@ console.log("Hello World!")
         ["install-bun.sh"] = "install-bun.sh",
         ["hello-world"] = "bin/hello-world.js",
     },
-})
+}

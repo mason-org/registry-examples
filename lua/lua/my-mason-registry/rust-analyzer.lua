@@ -1,7 +1,4 @@
-local Pkg = require("mason-core.package")
-
-return Pkg:new {
-    schema = "registry+v1",
+return {
     name = "rust-analyzer",
     description = "rust-analyzer is an implementation of the Language Server Protocol for the\nRust programming language. It provides features like completion and goto\ndefinition for many code editors, including VS Code, Emacs and Vim.\n",
     categories = { "LSP" },
